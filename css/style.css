@@ -11,7 +11,7 @@ green:#7FB24D
 
 body {
     background-color: none;
-    color:#4D61B2
+    color:#4D61B2;
 }
 
 #header {
@@ -181,14 +181,14 @@ main-content-wrapper #skills span{
     }
 footer {
     background-color:white;
-    text-align: center
+    text-align: center;
         font-family:'l;ato', sans-serif;
     min-height:100px;
 }
 
 footer > h1 {
     margin:0;
-    transform: translateY(50%)
+    transform: translateY(50%);
 }
 
 header > h1 {
@@ -202,4 +202,12 @@ header > h1 {
 .max-width {
     margin:0 auto;
     max-width: 960px;
+}
+
+/*Bootstrap Related*/
+.container-fluid {
+    padding:0;
+}
+#favorite-sites > .row > .col-md-4 > img {
+    margin:0 auto;
 }
